@@ -12,8 +12,7 @@ Technical Lead Engineer
 
 -------------------                                                 ----------------------------
 <vjykumar97@gmail.com>                                                            +91-9971047739
-[github.com/vijaykhr](https://github.com/vjycool97)                               [linkedin.com/vijaykhr](https://www.linkedin.com/in/vijay-kharwar-38512758/)
-[medium.com/@vjycoe97](https://medium.com/@vjycoe97)                        
+[github.com/vijaykhr](https://github.com/vjycool97)                               [linkedin.com/vijaykhr](https://www.linkedin.com/in/vijay-kharwar-38512758/)    
 -------------------                                                 ----------------------------
 
 </div>
@@ -22,15 +21,16 @@ Technical Lead Engineer
 Skills
 --------------------
 
+
 <div class='list-with-margin'>
 
-Technical Skills
-:   - __Proficient__: Ruby on Rails, PostgreSQL, REST, Git, RSpec, TDD, _Debugging_
-    - __Intermediate__: MongoDB, Redis, Python
-    - __Hacker__: Golang, VueJS, JavaScript, HTML, CSS, C, AWS, Kubernetes, CI/CD, x86-64 Assembly
+Specialties
+:   - Technology Strategy, Code reviews, Clean code, Patterns, Distributed Programming, Async programming, Microservice Architecture.
 
-Soft Skills
-:   - Leadership, Adaptibility, Mentoring, Project Ownership, Blogging, _Firefighting_
+Technical Skills
+:   - __Language/Framework__: Java, MySQL, PostgreSQL, MongoDB, Python, Spring Boot, Android, ReactJs, _Debugging_
+    - __Other__: AWS, GCP, Docker, Kubernetes, CI/CD
+    - __Logging Tools__: Datadog, Dynatrace, NewRelic, Sumologic, CleverTap, AWS CloudTrail
 
 </div>
 
@@ -38,77 +38,64 @@ Soft Skills
 Professional Experience
 ----------
 
-### Senior Software Engineer - [Clark, DE](https://www.clark.de/)<br><small class='text-normal'>_April 2021 to December 2022 (remote via [Toptal](https://www.toptal.com/))_</small>
+### Technical Lead Engineer - [Cars24](https://www.cars24.com/)<br><small class='text-normal'>_December 2022 to Present_</small>
 
 <div class='experience-type'>
 Technical responsibilities and achievements:
 </div>
 
-- **Designed, developed, and maintained** robust and efficient APIs for both new and existing **customer onboarding journeys** using **Ruby on Rails**. This effort enhanced the **user experience** and increased **customer retention**.
-- **Accelerated** feature releases by upto **3 days** at Clark by revamping the **A/B experiments** framework, eliminating developer intervention, and enabling product managers to make direct changes, all while maintaining **backwards compatibility**.
-- Fixed a critical bug in **Master Watcher**, a **Golang** script that imports GitHub commits to a Google sheet, **aiding the QA team** in prioritizing flaky tests.
+- **Designed, developed, and maintained** robust and efficient APIs for both new and existing **OMS Purchase System** using **Java and Spring Boot**. Creating different types of purchase requests, With DIY feature resulted in a **remarkable ~12%** increase in new car purchase requests.
+- Oversaw the **Temporal** implementation in the purchase system, which created a **fault-tolerant and resilient** flow for the payment state.
+- Implemented **Datadog, New Relic, Dynatrace, and AWS CloudTrail**, fostering observability and **proactive monitoring**; expedited bug identification and resolution.
 
 <div class='experience-type'>
 Ownership and Collaboration:
 </div>
 
-- Served as a member of the **core group** in the team. Regularly discussed **team priorities**, participated in deciding **team OKRs**, and tracked the progress of ongoing user stories.
+- Directed cross-functional teams to ensure the successful development and delivery of complex projects, aligning with **business objectives and timelines**.
 - Took **ownership** of multiple features and bugs, ensuring their completion. This involved proper **task breakdown**, making **reasonable trade-offs**, planning upcoming maintenance, and **collaborating** with product managers and other development teams.
-- **Strategised the transition** of the live chat service "Hermes" from NodeJS to Golang, while also taking **ownership of its post-migration maintenance**. **Collaborated** with the infrastructure team to manage services using **Kubernetes** and the sales team for optimal timing of migration. Ensured a seamless and **invisible migration** for customers who were online during the transition.
-- Oversaw the removal of Facebook login from the application based on a **cost-benefit analysis**. This process involved making modifications to our **EmberJS frontend** and a rigorous testing of the **password reset flow** to ensure a smooth transition for existing users.
+- **Strategised the transition** of the **microservices** from AWS to GCP, while also taking **ownership of its post-migration maintenance**. **Collaborated** with the infrastructure team to manage services using **Kubernetes** and the Operation/Retail team for optimal timing of migration.
 
-<hr class='short-line' />
+<!-- <hr class='short-line' /> -->
 
-### Software Engineer - [Escale Solutions](https://www.escalesolutions.com/)<br><small class='text-normal'>_July 2018 to July 2020_</small>
-
-<div class='experience-type'>
-Technical responsibilities and achievements:
-</div>
-
-- Sole backend developer on overall 5+ projects like [Manscore](https://www.manscore.com) (gamified social network) & [Scriptdoor](https://scriptdoor.com) (media streaming). Tasks included **high/low-level designs**, **database modeling**, **RESTful APIs**, **deployment** & maintaining client products for stability & performance.
-- Devised a unique **wallet-based payment system** for Scriptdoor using **SQL window functions**. It mimicked real-world cash denominations but with unlimited possibilities, enabling secure, **trackable** and flexible transactions.
-
-<div class='experience-type'>
-Leadership and Mentoring:
-</div>
-
-- **Mentored a junior developer**, guiding him in mastering **Ruby on Rails**, leading to significant progress in his technical skills.
-- **Led a team** of 10+ developers, conducting daily scrum meetings, performing code reviews, overseeing project onboarding, and managing resources.
-- Acted as the **primary point of contact** for clients, providing technical insights to facilitate optimal product development and mutual profitability.
-
-<hr class='short-line' />
-
-### Co-Founder - Farad Books<br><small class='text-normal'>_February 2016 to February 2018_</small>
+### Senior Software Engineer - [Cars24](https://www.cars24.com/)<br><small class='text-normal'>_December 2019 to November 2022_</small>
 
 <div class='experience-type'>
 Technical responsibilities and achievements:
 </div>
 
-- Worked as the sole **backend developer** and was responsible for the **design, development, deployment and maintenance** of the full stack application using **Ruby on Rails**, **PostgreSQL**, **HTML**, **CSS**, **Javascript**, **CoffeeScript**, etc.
-- Implemented a real-time, relevance-based **search suggestion** feature using **Redis**, **jQuery**, and **custom middleware**, enhancing __user experience__ and boosting __site usability__.
-- Developed "Oye", an **in-house analytics tool** integrated within the Farad Books monorepo, to track user behavior, optimize user experience, and aid in **inventory management** by understanding user preferences.
-- Streamlined daily __inventory management__ by integrating distributor email attachments (Excel files) into our system, resulting in a time savings of 20+ minutes per day and guaranteeing access to the latest data.
+- Engineered a dynamic, rule-based Document Management System to optimize document delivery, leveraged **AWS services (EC2, Lambda, S3) and GCP** to ensure system resilience and scalability.
+- Seamlessly integrated **Elasticsearch** to enhance document search capabilities, providing users with faster and more accurate search results, ultimately improving the overall user experience.
+- Designed multiple microservices, tasks included **High/Low-level designs**, **database modeling**, **RESTful APIs**, **deployment** & maintaining product features for stability & performance.
+- Orchestrated the successful migration of mission-critical applications to the cloud, resulting in cost savings and improved reliability.
+
+### Software Engineer - [Cars24](https://www.cars24.com/)<br><small class='text-normal'>_September 2018 to November 2019_</small>
+- Worked with Dealer Application and Admin teams, collaborating to design and sustain pivotal systems essential for streamlining the dealer onboarding process.
+- Developed the Dealer Onboarding platform, automating document journey, and reducing human intervention. This innovation resulted in a **remarkable ~19% increase** in dealer traffic.
+
+<hr class='short-line' />
 
 
-<div class='experience-type'>
-Marketing Responsibilities:
-</div>
 
-- Conceptualized and implemented the __"Keep A Book"__ feature based on customer behavior analysis, enabling customers to purchase borrowed books. This initiative led to a __revenue increase of ~150%__ and a __reduction in dead inventory by around ~40%__.
-- Engaged in __strategic partnerships__ with book clubs and upcoming publishers for mutual publicity, conducted online ads, distributed promotional materials, and initiated offline marketing campaigns to boost brand visibility and customer acquisition.
+### Software Engineer - IndiaRush<br><small class='text-normal'>_November 2017 to August 2018_</small>
+- Responsible for Android product development to deployment on Google Play Store. Application with over **1.8M** downloads, Responsible for maintaining, monitoring, and scaling the application written in Java, and Kotlin.
+- E-commerce wallet integration and **payment gateway (PayU)** integration.
+- Worked on **Deep-linking** features for social promotion like **Facebook, Google, and Instagram**. 
+
+<hr class='short-line' />
+
+### Software Engineer - Stint Mint Technologies Pvt. Ltd.<br><small class='text-normal'>_June 2015 to September 2016_</small>
+- Worked on mobile application development, REST web services, Design Patterns - XML, Core Java, and frontend Development - AJAX, JavaScript, JQuery, HTML5 and CSS3.
+- Experience with MongoDB Database, Worked on Ruby on Rails, and having Experience in the Agile Method.
+- Integrated social login **Facebook and Google** in application.
+
+<hr class='short-line' />
+
+
 
 Education
 ---------
 
 2011-2015
-:   **Bachelor of Technology, Electrical Engineering** - Delhi Technological University, Delhi
+:   **Bachelor of Technology, Computer Science & Engineering** - Delhi Technological University, Delhi
 
-    *Passed with First Class - 72.77%*
-
-Reference
----------
-
-Krishna Swarup, <small class='text-normal'><br>_Engineering Manager,_ <br>_Clark DE_</small>
-:   - <swarooptk@gmail.com>
-    - [linkedin.com/krishnaswarup](https://www.linkedin.com/in/krishnaswarup/)
-    - _Phone number can be provided on request_
