@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>resume</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <style type="text/css">
+
+  @page {
+      size: Letter;
+      margin: 0.5cm;
+  }
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+
+  /* Whole document */
+  body {
+      font-family: 'Avenir', "Helvetica Neue", Helvetica, Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+
+  #title {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+  }
+
+  #title p {
+      margin: 0;
+      font-size: 1.3em;
+  }
+
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #757575;
+      text-align:center;
+      margin: 0;
+  }
+  /* h1:hover { */
+  /*     background-color: #757575; */
+  /*     color: #FFFFFF; */
+  /*     text-shadow: 1px 1px 1px #333; */
+  /* } */
+
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #397249;
+      margin-bottom: 0.5em;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #9CB770;
+  }
+  /* h2:hover { */
+  /*     background-color: #397249; */
+  /*     color: #FFFFFF; */
+  /*     text-shadow: 1px 1px 1px #333; */
+  /* } */
+
+  h2, h3 {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+  }
+
+  .text-normal {
+      font-weight: normal;
+  }
+
+  .text-center {
+      text-align: center;
+  }
+
+  strong {
+      font-weight: 500;
+  }
+
+  ol, ul {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+  }
+
+  div.experience-type p {
+      opacity: 0.8;
+      font-weight: 500;
+      font-style: italic;
+      margin: 0.5em 0;
+  }
+
+  ul li {
+      margin: 0.1em 0;
+  }
+
+  table {
+      display: table;
+      margin: 0;
+  }
+
+  table tbody {
+      border-top: 1px solid rgba(57, 114, 73, 0.6);
+      border-bottom: 1px solid rgba(57, 114, 73, 0.6);
+  }
+
+  table td {
+      width: 50%;
+      padding: 0.2em;
+  }
+
+  table td:last-child {
+      text-align: right;
+      padding-right: 0.5em;
+  }
+
+  table td:first-child {
+      text-align: left;
+      padding-left: 0.5em;
+  }
+
+  /* Definitions */
+  dl {
+      margin-top: 0.5em;
+  }
+
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      font-weight: bold;
+  }
+  dd {
+      margin-left: 17%;
+      margin-bottom:7px;
+  }
+
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+
+  a:visited {
+      color: #397249;
+  }
+
+  a:hover, a:active {
+      background-color: #397249;
+      padding: 0.2em 0.2em;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+      margin: 0;
+  }
+
+  hr.short-line {
+      background-color: #397249;
+      margin: 0.25em auto;
+      width: 85%;
+      opacity: 0.5;
+  }
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="title">
+<h1 id="vijay-kharwar">Vijay Kharwar</h1>
+<p>Technical Lead Engineer</p>
+</div>
+<div id="links">
+<table>
+<tbody>
+<tr class="odd">
+<td><a href="mailto:vjykumar97@gmail.com"
+class="email">vjykumar97@gmail.com</a></td>
+<td style="text-align: right;">+91-9971047739</td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/vjycool97"
+target="_blank">github.com/vijaykhr</a></td>
+<td style="text-align: right;"><a
+href="https://www.linkedin.com/in/vijay-kharwar-38512758/"
+target="_blank">linkedin.com/vijaykhr</a></td>
+</tr>
+<tr class="odd">
+<td><a href="https://medium.com/@vjycoe97"
+target="_blank">medium.com/<span class="citation"
+data-cites="vjycoe97">@vjycoe97</span></a></td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="skills">Skills</h2>
+<div class="list-with-margin">
+<dl>
+<dt>Technical Skills</dt>
+<dd>
+<ul>
+<li><strong>Proficient</strong>: Ruby on Rails, PostgreSQL, REST, Git,
+RSpec, TDD, <em>Debugging</em></li>
+<li><strong>Intermediate</strong>: MongoDB, Redis, Python</li>
+<li><strong>Hacker</strong>: Golang, VueJS, JavaScript, HTML, CSS, C,
+AWS, Kubernetes, CI/CD, x86-64 Assembly</li>
+</ul>
+</dd>
+<dt>Soft Skills</dt>
+<dd>
+<ul>
+<li>Leadership, Adaptibility, Mentoring, Project Ownership, Blogging,
+<em>Firefighting</em></li>
+</ul>
+</dd>
+</dl>
+</div>
+<h2 id="professional-experience">Professional Experience</h2>
+<h3
+id="senior-software-engineer---clark-de-april-2021-to-december-2022-remote-via-toptal">Senior
+Software Engineer - <a href="https://www.clark.de/"
+target="_blank">Clark, DE</a><br><small class='text-normal'><em>April
+2021 to December 2022 (remote via <a href="https://www.toptal.com/"
+target="_blank">Toptal</a>)</em></small></h3>
+<div class="experience-type">
+<p>Technical responsibilities and achievements:</p>
+</div>
+<ul>
+<li><strong>Designed, developed, and maintained</strong> robust and
+efficient APIs for both new and existing <strong>customer onboarding
+journeys</strong> using <strong>Ruby on Rails</strong>. This effort
+enhanced the <strong>user experience</strong> and increased
+<strong>customer retention</strong>.</li>
+<li><strong>Accelerated</strong> feature releases by upto <strong>3
+days</strong> at Clark by revamping the <strong>A/B experiments</strong>
+framework, eliminating developer intervention, and enabling product
+managers to make direct changes, all while maintaining <strong>backwards
+compatibility</strong>.</li>
+<li>Fixed a critical bug in <strong>Master Watcher</strong>, a
+<strong>Golang</strong> script that imports GitHub commits to a Google
+sheet, <strong>aiding the QA team</strong> in prioritizing flaky
+tests.</li>
+</ul>
+<div class="experience-type">
+<p>Ownership and Collaboration:</p>
+</div>
+<ul>
+<li>Served as a member of the <strong>core group</strong> in the team.
+Regularly discussed <strong>team priorities</strong>, participated in
+deciding <strong>team OKRs</strong>, and tracked the progress of ongoing
+user stories.</li>
+<li>Took <strong>ownership</strong> of multiple features and bugs,
+ensuring their completion. This involved proper <strong>task
+breakdown</strong>, making <strong>reasonable trade-offs</strong>,
+planning upcoming maintenance, and <strong>collaborating</strong> with
+product managers and other development teams.</li>
+<li><strong>Strategised the transition</strong> of the live chat service
+“Hermes” from NodeJS to Golang, while also taking <strong>ownership of
+its post-migration maintenance</strong>. <strong>Collaborated</strong>
+with the infrastructure team to manage services using
+<strong>Kubernetes</strong> and the sales team for optimal timing of
+migration. Ensured a seamless and <strong>invisible migration</strong>
+for customers who were online during the transition.</li>
+<li>Oversaw the removal of Facebook login from the application based on
+a <strong>cost-benefit analysis</strong>. This process involved making
+modifications to our <strong>EmberJS frontend</strong> and a rigorous
+testing of the <strong>password reset flow</strong> to ensure a smooth
+transition for existing users.</li>
+</ul>
+<hr class='short-line' />
+<h3
+id="software-engineer---escale-solutions-july-2018-to-july-2020">Software
+Engineer - <a href="https://www.escalesolutions.com/"
+target="_blank">Escale
+Solutions</a><br><small class='text-normal'><em>July 2018 to July
+2020</em></small></h3>
+<div class="experience-type">
+<p>Technical responsibilities and achievements:</p>
+</div>
+<ul>
+<li>Sole backend developer on overall 5+ projects like <a
+href="https://www.manscore.com" target="_blank">Manscore</a> (gamified
+social network) &amp; <a href="https://scriptdoor.com"
+target="_blank">Scriptdoor</a> (media streaming). Tasks included
+<strong>high/low-level designs</strong>, <strong>database
+modeling</strong>, <strong>RESTful APIs</strong>,
+<strong>deployment</strong> &amp; maintaining client products for
+stability &amp; performance.</li>
+<li>Devised a unique <strong>wallet-based payment system</strong> for
+Scriptdoor using <strong>SQL window functions</strong>. It mimicked
+real-world cash denominations but with unlimited possibilities, enabling
+secure, <strong>trackable</strong> and flexible transactions.</li>
+</ul>
+<div class="experience-type">
+<p>Leadership and Mentoring:</p>
+</div>
+<ul>
+<li><strong>Mentored a junior developer</strong>, guiding him in
+mastering <strong>Ruby on Rails</strong>, leading to significant
+progress in his technical skills.</li>
+<li><strong>Led a team</strong> of 10+ developers, conducting daily
+scrum meetings, performing code reviews, overseeing project onboarding,
+and managing resources.</li>
+<li>Acted as the <strong>primary point of contact</strong> for clients,
+providing technical insights to facilitate optimal product development
+and mutual profitability.</li>
+</ul>
+<hr class='short-line' />
+<h3
+id="co-founder---farad-books-february-2016-to-february-2018">Co-Founder
+- Farad Books<br><small class='text-normal'><em>February 2016 to
+February 2018</em></small></h3>
+<div class="experience-type">
+<p>Technical responsibilities and achievements:</p>
+</div>
+<ul>
+<li>Worked as the sole <strong>backend developer</strong> and was
+responsible for the <strong>design, development, deployment and
+maintenance</strong> of the full stack application using <strong>Ruby on
+Rails</strong>, <strong>PostgreSQL</strong>, <strong>HTML</strong>,
+<strong>CSS</strong>, <strong>Javascript</strong>,
+<strong>CoffeeScript</strong>, etc.</li>
+<li>Implemented a real-time, relevance-based <strong>search
+suggestion</strong> feature using <strong>Redis</strong>,
+<strong>jQuery</strong>, and <strong>custom middleware</strong>,
+enhancing <strong>user experience</strong> and boosting <strong>site
+usability</strong>.</li>
+<li>Developed “Oye”, an <strong>in-house analytics tool</strong>
+integrated within the Farad Books monorepo, to track user behavior,
+optimize user experience, and aid in <strong>inventory
+management</strong> by understanding user preferences.</li>
+<li>Streamlined daily <strong>inventory management</strong> by
+integrating distributor email attachments (Excel files) into our system,
+resulting in a time savings of 20+ minutes per day and guaranteeing
+access to the latest data.</li>
+</ul>
+<div class="experience-type">
+<p>Marketing Responsibilities:</p>
+</div>
+<ul>
+<li>Conceptualized and implemented the <strong>“Keep A Book”</strong>
+feature based on customer behavior analysis, enabling customers to
+purchase borrowed books. This initiative led to a <strong>revenue
+increase of ~150%</strong> and a <strong>reduction in dead inventory by
+around ~40%</strong>.</li>
+<li>Engaged in <strong>strategic partnerships</strong> with book clubs
+and upcoming publishers for mutual publicity, conducted online ads,
+distributed promotional materials, and initiated offline marketing
+campaigns to boost brand visibility and customer acquisition.</li>
+</ul>
+<h2 id="education">Education</h2>
+<dl>
+<dt>2011-2015</dt>
+<dd>
+<p><strong>Bachelor of Technology, Electrical Engineering</strong> -
+Delhi Technological University, Delhi</p>
+<p><em>Passed with First Class - 72.77%</em></p>
+</dd>
+</dl>
+<h2 id="reference">Reference</h2>
+<dl>
+<dt>Krishna Swarup, <small class='text-normal'><br><em>Engineering
+Manager,</em> <br><em>Clark DE</em></small></dt>
+<dd>
+<ul>
+<li><a href="mailto:swarooptk@gmail.com"
+class="email">swarooptk@gmail.com</a></li>
+<li><a href="https://www.linkedin.com/in/krishnaswarup/"
+target="_blank">linkedin.com/krishnaswarup</a></li>
+<li><em>Phone number can be provided on request</em></li>
+</ul>
+</dd>
+</dl>
+</body>
+</html>
