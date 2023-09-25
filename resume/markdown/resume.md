@@ -28,9 +28,9 @@ Specialties
 :   - Technology Strategy, Code reviews, Clean code, Patterns, Distributed Programming, Async programming, Microservice Architecture.
 
 Technical Skills
-:   - __Language/Framework__: Java, MySQL, PostgreSQL, MongoDB, Python, Spring Boot, Hibernate, RabbitMQ, Drool, Redis, PubSub, DynamoDb, Android, ReactJs, _Debugging_
-    - __Other__: AWS, GCP, Docker, Kubernetes, Jenkins, Gradle, Maven, Git, Flyway, CI/CD
+:   - __Language/Framework__: Java, MySQL, PostgreSQL, MongoDB, Python, Spring Boot, Hibernate, RabbitMQ, Drools, Redis, PubSub, DynamoDb, Android, ReactJs, _Debugging_
     - __Logging Tools__: Datadog, Dynatrace, NewRelic, Sumologic, CleverTap, AWS CloudTrail
+    - __Other__: AWS, GCP, Docker, Kubernetes, Jenkins, Gradle, Maven, Git, Flyway, CI/CD
 
 </div>
 
