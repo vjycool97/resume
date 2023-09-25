@@ -28,8 +28,8 @@ Specialties
 :   - Technology Strategy, Code reviews, Clean code, Patterns, Distributed Programming, Async programming, Microservice Architecture.
 
 Technical Skills
-:   - __Language/Framework__: Java, MySQL, PostgreSQL, MongoDB, Python, Spring Boot, Android, ReactJs, _Debugging_
-    - __Other__: AWS, GCP, Docker, Kubernetes, CI/CD
+:   - __Language/Framework__: Java, MySQL, PostgreSQL, MongoDB, Python, Spring Boot, Hibernate, RabbitMQ, Drool, Redis, PubSub, DynamoDb, Android, ReactJs, _Debugging_
+    - __Other__: AWS, GCP, Docker, Kubernetes, Jenkins, Gradle, Maven, Git, Flyway, CI/CD
     - __Logging Tools__: Datadog, Dynatrace, NewRelic, Sumologic, CleverTap, AWS CloudTrail
 
 </div>
@@ -45,7 +45,7 @@ Technical responsibilities and achievements:
 </div>
 
 - **Designed, developed, and maintained** robust and efficient APIs for both new and existing **OMS Purchase System** using **Java and Spring Boot**. Creating different types of purchase requests, With DIY feature resulted in a **remarkable ~12%** increase in new car purchase requests.
-- Oversaw the **Temporal** implementation in the purchase system, which created a **fault-tolerant and resilient** flow for the payment state.
+- Oversaw the **Temporal Workflow** implementation in the purchase system, which created a **fault-tolerant and resilient** flow for the payment state.
 - Implemented **Datadog, New Relic, Dynatrace, and AWS CloudTrail**, fostering observability and **proactive monitoring**; expedited bug identification and resolution.
 
 <div class='experience-type'>
@@ -78,14 +78,14 @@ Technical responsibilities and achievements:
 
 
 ### Software Engineer - IndiaRush<br><small class='text-normal'>_November 2017 to August 2018_</small>
-- Responsible for Android product development to deployment on Google Play Store. Application with over **1.8M** downloads, Responsible for maintaining, monitoring, and scaling the application written in Java, and Kotlin.
+- Worked on an Android application with over **1.8M** downloads, responsible for maintaining, monitoring, and scaling the application written in Java and Kotlin.
 - E-commerce wallet integration and **payment gateway (PayU)** integration.
 - Worked on **Deep-linking** features for social promotion like **Facebook, Google, and Instagram**. 
 
 <hr class='short-line' />
 
 ### Software Engineer - Stint Mint Technologies Pvt. Ltd.<br><small class='text-normal'>_June 2015 to September 2016_</small>
-- Worked on mobile application development, REST web services, Design Patterns - XML, Core Java, and frontend Development - AJAX, JavaScript, JQuery, HTML5 and CSS3.
+- Worked on mobile application development, REST web services, Design Pattern - XML, Core Java, and frontend Development - AJAX, JavaScript, JQuery, HTML5 and CSS3.
 - Experience with MongoDB Database, Worked on Ruby on Rails, and having Experience in the Agile Method.
 - Integrated social login **Facebook and Google** in application.
 
