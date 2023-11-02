@@ -44,10 +44,11 @@ Professional Experience
 Technical Lead Engineer - (December 2022 to present)
 </div>
 
-- Enhanced OMS Purchase System by meticulously designing, developing, and consistently maintaining robust and efficient APIs, facilitating various types of purchase requests, including a novel DIY feature. This innovation led to an impressive approximately **12% surge** in new car purchase requests..
-- Oversaw the **Temporal Workflow** implementation in the purchase system, which created a **fault-tolerant and resilient** flow for the payment state.
-- Took **ownership** of multiple features and bugs, ensuring their completion. This involved proper **task breakdown**, making **reasonable trade-offs**, planning upcoming maintenance, and **collaborating** with product managers and other development teams.
+- Enhanced OMS Purchase System by meticulously designing, developing, and consistently maintaining robust and efficient APIs, facilitating various types of purchase requests, including a novel DIY feature. This innovation led to an impressive approximately **12% surge** in new car purchase requests.
 - **Strategised the transition** of the **microservices** from AWS to GCP, while also taking **ownership of its post-migration maintenance**. **Collaborated** with the infrastructure team to manage services using **Kubernetes** and the Operation/Retail team for optimal timing of migration.
+- Took **ownership** of multiple features and bugs, ensuring their completion. This involved proper **task breakdown**, making **reasonable trade-offs**, planning upcoming maintenance, and **collaborating** with product managers and other development teams.
+- Oversaw the **Temporal Workflow** implementation in the purchase system, which created a **fault-tolerant and resilient** flow for the payment state.
+
 
 <!-- <hr class='short-line' /> -->
 
